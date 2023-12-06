@@ -42,7 +42,7 @@ var as2Id = subscriptionResourceId('Microsoft.Web/locations/managedApis', locati
 resource contosoIntegrationAccount 'Microsoft.Logic/integrationAccounts@2019-05-01' = {
   properties: {}
   sku: {
-    name: 'Standard'
+    name: 'Free'
   }
   tags: {
     displayName: 'Contoso Integration Account'
@@ -54,7 +54,7 @@ resource contosoIntegrationAccount 'Microsoft.Logic/integrationAccounts@2019-05-
 resource fabrikamIntegrationAccount 'Microsoft.Logic/integrationAccounts@2019-05-01' = {
   properties: {}
   sku: {
-    name: 'Standard'
+    name: 'Free'
   }
   tags: {
     displayName: 'Fabrikam Integration Account'
