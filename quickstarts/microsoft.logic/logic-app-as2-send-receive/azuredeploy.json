@@ -95,7 +95,7 @@
       "name": "[parameters('contosoIntegrationAccountName')]",
       "properties": {},
       "sku": {
-        "name": "Standard"
+        "name": "Free"
       },
       "tags": {
         "displayName": "Contoso Integration Account"
@@ -108,7 +108,7 @@
       "name": "[parameters('fabrikamIntegrationAccountName')]",
       "properties": {},
       "sku": {
-        "name": "Standard"
+        "name": "Free"
       },
       "tags": {
         "displayName": "Fabrikam Integration Account"
